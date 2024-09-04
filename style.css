@@ -10,8 +10,19 @@
 .sidebar
 {
     display: grid;
-    
+    grid-auto-rows: min-content;
+    row-gap: 30px;
+}
 
+.dashboard
+{
+    display: grid;
+    row-gap: 15px;
+}
+
+li
+{
+    list-style-type: none;
 }
 
 .main
