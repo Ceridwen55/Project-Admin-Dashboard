@@ -9,6 +9,8 @@
 
 .sidebar
 {
+    display: grid;
+    
 
 }
 
@@ -30,7 +32,7 @@
 {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    column-gap: 0.2fr;
+    column-gap: 40px;
     
     
 }
@@ -46,7 +48,9 @@
 .left-content .projects
 {
     display: grid;
-    grid-template-columns: 1fr 1fr;   
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: -195px;   
 }
 
 .card 
@@ -65,11 +69,22 @@
     display: grid;
     grid-column: 2 / 3;
     grid-template-columns: 1fr;
+    row-gap: 10px;
 }
 
 .announce
 {
     display: grid;
     grid-template-columns: 1 / 2;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.trending
+{
+    display: grid;
+    grid-template-columns: 1 / 2;
+    border: 1px solid #ccc;
+    border-radius: 8px;
 }
 
