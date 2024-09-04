@@ -1,0 +1,8 @@
+.home
+{   
+    resize: both;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 100%
+}
