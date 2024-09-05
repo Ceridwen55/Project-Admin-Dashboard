@@ -172,9 +172,21 @@ li
 {
     height: auto;
     width: 25px;
-    background-color: white;
-    border-color: white;
-}   
+    background: none;
+    border-color: none;
+    border: none;
+    padding: 0px;
+
+}
+
+.favo-button
+{
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    column-gap: 15px;
+    justify-self: end;
+    
+}
 
 
 
