@@ -14,6 +14,18 @@
     row-gap: 30px;
 }
 
+.sidebar .dash
+{
+    width:50px;
+    height: auto;
+}
+
+.sidebar .logo
+{
+    width: 40px;
+    height: auto;
+}
+
 .dashboard
 {
     display: grid;
@@ -39,6 +51,38 @@ li
 
 }
 
+.search img
+{
+    width: 40px;
+    height: auto;
+}
+
+.notif img
+{
+    width: 40px;
+    height: auto;
+}
+
+.left-pic img
+{
+    height: auto;
+    width: 70px;
+    border-radius: 50px;
+}
+
+.right-pic img
+{
+    height: auto;
+    width: 80px;
+    border-radius: 50px;
+}
+
+.info
+{
+    display: grid;
+    
+}
+
 .admin-page
 {
     display: grid;
@@ -47,7 +91,6 @@ li
     
     
 }
-
 
 .left-content
 {
@@ -72,6 +115,13 @@ li
     border: 1px solid #ccc;
     border-radius: 8px;
 }
+
+.card button
+{
+    height: auto;
+    width: 25px;
+    background-color: #ccc;
+}   
 
 
 
@@ -99,3 +149,9 @@ li
     border-radius: 8px;
 }
 
+.block2 img
+{
+    height: auto;
+    width: 50px;
+    border-radius: 50px;
+}
